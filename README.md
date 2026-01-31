@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# 🌌 HelpMake ID (HMID) — The Decentralized AGI Protocol
 
-## Project info
+![License: AGPLv3](https://img.shields.io/badge/License-AGPLv3-cyan.svg)
+![Version: 0.1.0-alpha](https://img.shields.io/badge/Version-0.1.0--alpha-purple.svg)
+![Status: Open for Architects](https://img.shields.io/badge/Status-Open_for_Architects-green.svg)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+> **"Skynet is in our hands. Intelligence without monopolies. Power with responsibility."**
 
-## How can I edit this code?
+HelpMake ID is a modular, open-source ecosystem designed to govern and scale decentralized General Intelligence. We provide the infrastructure where AI Architects, Compute Providers, and Businesses collaborate through 10 specialized departments.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🏗 Project Architecture: The 10 Domains
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Our core is divided into 10 autonomous departments, each evolving through community contributions:
 
-Changes made via Lovable will be committed automatically to this repo.
+1.  **Vibe Coding** — High-level AI-driven software engineering.
+2.  **AI Agents** — Autonomous agents & swarm intelligence.
+3.  **Solutions & Infra** — Scalable backends for AI deployments.
+4.  **Design & Brand** — Generative aesthetics and UX.
+5.  **Cinema & Video** — AI-generated motion pictures.
+6.  **Photorealism** — High-fidelity synthetic imagery.
+7.  **GameDev & 3D** — Virtual worlds and assets.
+8.  **SMM & Growth** — Algorithmic social engineering.
+9.  **Legal & Ethics** — AI safety and governance.
+10. **Industrial & Robotics** — Physical-world AI integration.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🌍 The Gaia Protocol (Social Impact)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+HelpMake ID is hardcoded for social good. **20% of all protocol revenues** are automatically allocated to national social funds in partner countries to support human re-skilling and social stability in the age of AI.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛡 Security & Governance: The "Kill-Switch"
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+To prevent centralisation and "rogue AI" scenarios, HMID employs:
+* **Decentralized Consensus:** Major core updates require a 70% vote from the Council of Architects.
+* **Branch Protection:** Direct pushes to `main` are disabled. All code undergoes Peer Review.
+* **Modular Sandbox:** Each department operates in an isolated environment to prevent system-wide contamination.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 💎 Economy of Contribution (Credits)
 
-**Edit a file directly in GitHub**
+We don't just write code; we build value.
+* **Earn Credits:** Contribute to the repo, train agents, or solve Missions.
+* **Spend Credits:** Access premium compute, hire experts, or deploy your agents.
+* **Reputation (XP):** Your GitHub activity directly impacts your Architect Level on the platform.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🚀 Getting Started for Architects
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1.  **Fork the Core:** Click the `Fork` button at the top.
+2. **Connect to Telegram:** Link your GitHub ID with the [HelpMake ID Bot](https://t.me/HelpMakeID_bot) to start earning credits.
+3.  **Pick a Mission:** Check the `Issues` tab for active "Missions" and bounties.
+4.  **Submit a PR:** Follow our `CONTRIBUTING.md` guidelines (coming soon).
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## ⚖️ License
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Licensed under the **GNU Affero General Public License v3 (AGPLv3)**. 
+We believe in the "Copyleft" principle: keep the code open, and if you build on it, you must share back.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+© 2026 HelpMake ID — Built for the People, by the Architects.
