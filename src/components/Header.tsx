@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
 import { Menu, X, Zap } from 'lucide-react';
 import { useState } from 'react';
+import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
+
+const TELEGRAM_BOT_URL = 'https://t.me/HelpMakeID_bot';
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,12 +42,24 @@ export const Header = () => {
 
           {/* CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <button className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Sign In
-            </button>
-            <button className="cyber-btn text-sm py-2">
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <button className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-default">
+                  Sign In
+                </button>
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>Coming Soon</p>
+              </TooltipContent>
+            </Tooltip>
+            <a
+              href={TELEGRAM_BOT_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cyber-btn text-sm py-2"
+            >
               Launch App
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -77,12 +92,17 @@ export const Header = () => {
               </a>
             ))}
             <div className="pt-4 border-t border-white/10 space-y-3">
-              <button className="w-full text-left text-lg text-muted-foreground hover:text-foreground">
-                Sign In
-              </button>
-              <button className="cyber-btn w-full">
+              <span className="block w-full text-left text-lg text-muted-foreground">
+                Sign In (Coming Soon)
+              </span>
+              <a
+                href={TELEGRAM_BOT_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cyber-btn w-full block text-center"
+              >
                 Launch App
-              </button>
+              </a>
             </div>
           </nav>
         </motion.div>
