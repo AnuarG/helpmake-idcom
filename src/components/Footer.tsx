@@ -1,4 +1,7 @@
-import { Zap, Github, Twitter, MessageCircle } from 'lucide-react';
+import { Zap, Github, Twitter, Send } from 'lucide-react';
+
+const TELEGRAM_BOT_URL = 'https://t.me/HelpMakeID_bot';
+const GITHUB_URL = 'https://github.com/AnuarG/helpmake-id-core';
 
 export const Footer = () => {
   return (
@@ -19,14 +22,14 @@ export const Footer = () => {
               The decentralized AGI ecosystem owned by the community.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Github className="w-5 h-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://twitter.com/HelpMakeID" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <MessageCircle className="w-5 h-5" />
+              <a href={TELEGRAM_BOT_URL} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <Send className="w-5 h-5" />
               </a>
             </div>
           </div>

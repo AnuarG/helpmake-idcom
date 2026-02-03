@@ -45,13 +45,23 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <button className="cyber-btn flex items-center justify-center gap-2 group">
-            <span className="font-display font-semibold">Explore the Core</span>
+          <a
+            href="https://t.me/HelpMakeID_bot"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cyber-btn flex items-center justify-center gap-2 group"
+          >
+            <span className="font-display font-semibold">Get Started</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </button>
-          <button className="cyber-btn-outline flex items-center justify-center gap-2">
+          </a>
+          <a
+            href="https://t.me/HelpMakeID_bot"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cyber-btn-outline flex items-center justify-center gap-2"
+          >
             <span className="font-display font-semibold">Join the Workforce</span>
-          </button>
+          </a>
         </motion.div>
 
         {/* Stats */}
